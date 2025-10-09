@@ -57,7 +57,7 @@ bindings = {
 	attack = "Q",
 	retreat = "X",
 	retreat_queue = "Shift+X",
-	repair = "Z",
+	repair = "",
 	reinforce = "R",
 	overwatch = "Shift+R",
 	attackground = "",
@@ -67,7 +67,7 @@ bindings = {
 	unload = "U",
 	ping = "F8",
 	defend = "F9",
-	stance = "Backslash",
+	stance = "G",
 
 	cancel_construction = "Escape",
 	retire = "Delete",
@@ -76,7 +76,7 @@ bindings = {
 	-- multiple selection hotkeys
 	--------------------------------------------------------------------------------------------------------------
 	select_all = "Control+A",
-	select_hq = "`",
+	select_hq = "Grave",
 	select_hero = ".",
 	retreat_hero = "Control+X",
 	retreat_all = "Alt+X",
@@ -220,12 +220,12 @@ bindings = {
 	arm_apoth_gyro_stabilized_armour = "I", -- Armor of Purity
 	arm_apoth_combat_stimulant_equipment = "C", -- Combat Stimulant Equipment
 	arm_apoth_armour_of_the_apothecarion = "H", -- Armor of the Apothecarion
-	acc_apoth_toxin_grenades = "G", -- Purification Vials
+	acc_apoth_toxin_grenades = "", -- Purification Vials
 	acc_apoth_improved_medical_equipment = "M", -- Improved Medical Equipment
 	acc_apoth_purification_rites = "P", -- Purification Rights
 	arm_tech_signum_armor = "K", -- Signum Armor
 	arm_tech_artificer_armour = "M", -- Artificer Armor
-	wp_tech_plasma_gun = "G", -- Plasma Gun
+	wp_tech_plasma_gun = "", -- Plasma Gun
 	wp_tech_meltagun = "E", -- Melta-gun
 	wp_tech_master_crafted_bolter = "T", -- Master-Crafted Bolter
 	wp_tech_consecrated_bolter = "B", -- Consecrated Bolter
@@ -255,7 +255,7 @@ bindings = {
 	sm_smoke_launcher = "M", -- Smoke Grenade
 	sm_teleport_terminators = "J", -- Teleport
 	sm_dreadnought_assault_cannon_barrage_explosive = "B", -- Assault Cannon Barrage
-	sm_gate_of_infinity = "G", -- Gate of Infinity
+	sm_gate_of_infinity = "", -- Gate of Infinity
 	sm_shield_wall = "", -- Force Barrier
 	sm_grace = "E", -- Veil of Time
 	sm_buff_self_damage = "E", -- Kraken Bolts
@@ -277,7 +277,7 @@ bindings = {
 	sm_apothecary_heal_signum_armor = "E", -- Heal
 	sm_apothecary_rapid_fire = "", -- Full Auto
 	sm_combat_stimulants = "C", -- Combat Stimulants
-	sm_toxin_grenade_apothecary = "G", -- Purification Vials
+	sm_toxin_grenade_apothecary = "", -- Purification Vials
 	sm_battle_cry = "B", -- MP version
 	sm_force_iron_halo = "I", -- MP version
 	sm_defend = "", -- Defend
@@ -292,7 +292,7 @@ bindings = {
 	sm_tech_refractor_field = "", -- Refractor Field
 	sm_techmarine_emp_grenade = "O", -- Orb of the Omnissiah
 	sm_techmarine_high_powered_shot = "T", -- High-Powered Shot
-	sm_techmarine_overcharge = "G", -- Overcharge
+	sm_techmarine_overcharge = "", -- Overcharge
 	sm_cleansing_flame = "N", -- Cleansing Flame
 	sm_droppod_hero = "", -- Commander Drop Pod
 
@@ -319,7 +319,7 @@ bindings = {
 	-- Unique FC abilities:
 	sm_charge_force_commander = "", -- Primary
 	sm_str1_battle_cry = "", -- Secondary
-	sm_sweeping_doom = "Y", -- Corrupting Ability
+	sm_sweeping_doom = "", -- Corrupting Ability
 
 	-- Unique FC Wargear
 	sm_teleport_fc = "E", -- Teleport Pack equipped
@@ -342,7 +342,7 @@ bindings = {
 	sm_high_explosive_shells = "", -- Secondary
 	sm_promethium_bomb = "", -- Secondary
 	sm_scout_reinforce = "E", -- Tertiary
-	sm_scout_teleport = "Y", -- Tertiary
+	sm_scout_teleport = "", -- Tertiary
 	sm_deadly_package = "J", -- Tertiary
 
 	-- Unique Cyrus Wargear
@@ -388,7 +388,7 @@ bindings = {
 	sm_librarian_force_dome = "", -- Primary
 	sm_librarian_purify = "R", -- Primary
 	sm_librarian_vortex_of_doom = "V", -- Primary
-	sm_librarian_ignite_soul = "Y", -- Primary
+	sm_librarian_ignite_soul = "", -- Primary
 	sm_librarian_smite = "", -- Primary
 	sm_librarian_split = "L", -- Primary
 	sm_librarian_might_of_the_ancients = "K", -- Primary
@@ -405,7 +405,7 @@ bindings = {
 	-- These abilities were cut
 	sm_librarian_transfer_energy = "I", -- Primary
 	sm_librarian_horrify = "H", -- Primary
-	sm_librarian_gate_of_infinity = "G", -- Primary
+	sm_librarian_gate_of_infinity = "", -- Primary
 	sm_librarian_warpfire = "V", -- Primary
 	sm_librarian_scarification = "U", -- Primary
 
@@ -439,7 +439,7 @@ bindings = {
 	csm_xp2_warp = "", -- Primary
 	csm_xp2_consume = "E", -- Primary
 	csm_xp2_berserk = "R", -- Primary
-	csm_xp2_let_the_galaxy_burn = "Y", -- Primary
+	csm_xp2_let_the_galaxy_burn = "", -- Primary
 	csm_xp2_drain_life = "U", -- Primary
 	csm_xp2_horrify = "I", -- Primary
 	-- Chaos Lord Specific Abilities
@@ -469,7 +469,7 @@ bindings = {
 	ork_e = "E", -- Primary
 	ork_r = "R", -- Primary
 	ork_t = "T", -- Primary
-	ork_y = "Y", -- Primary
+	ork_y = "", -- Primary
 
 	ork_xp2_hg1 = "M",
 	ork_xp2_hg2 = "V",
@@ -560,7 +560,7 @@ bindings = {
 	ig_xp2_commendation = "E", -- Primary
 	ig_xp2_protective_barrier = "R", -- Primary
 	ig_xp2_leman_russ = "T", -- Primary
-	ig_xp2_turret = "Y", -- Primary
+	ig_xp2_turret = "", -- Primary
 
 	-- Commissar
 	ig_xp2_execute = "", -- Primary
@@ -574,7 +574,7 @@ bindings = {
 	ig_xp2_flare = "E", -- Primary
 	ig_xp2_artillery_barrage = "R", -- Primary
 	ig_xp2_proximity_mines = "T", -- Primary
-	ig_xp2_remote_detonation = "Y", -- Primary
+	ig_xp2_remote_detonation = "", -- Primary
 
 	-- Inquisitor
 	ig_xp2_hammer_of_the_witches = "", -- Primary
@@ -582,7 +582,7 @@ bindings = {
 	ig_xp2_vanish = "E", -- Primary
 	ig_xp2_crippling_volley = "R", -- Primary
 	ig_xp2_purgatus = "T", -- Primary
-	ig_xp2_assail = "Y", -- Primary
+	ig_xp2_assail = "", -- Primary
 	ig_xp2_divine_pronouncement = "P", -- Primary
 
 	-- XP2 Eldar Abilities
@@ -663,7 +663,7 @@ bindings = {
 	-------------------------------------------
 
 	sm_heavy_bolter_turret_tech_marine = "J", -- Heavy Bolter Turret
-	sm_techmarine_field_ops = "Y", -- Teleporter Relay Beacon
+	sm_techmarine_field_ops = "", -- Teleporter Relay Beacon
 	sm_deployable_cover = "O",
 	sm_listening_post = "", -- Power Node
 	sm_generator = "", -- Generator
@@ -680,18 +680,18 @@ bindings = {
 	ork_slugga = "", -- Slugga
 	ork_shoota = "H", -- Shoota
 	ork_stikkbommas = "B", -- Stikbommas
-	ork_stormboy = "R", -- Stormboy
+	ork_stormboy = "", -- Stormboy
 	ork_lootas = "L", -- Lootas
-	ork_tankbustas = "T", -- Tankbustas
+	ork_tankbustas = "", -- Tankbustas
 	ork_deff_dread = "", -- Deff Dread
 	ork_wartrukk = "", -- Wartrukk
 	ork_kommandos = "K", -- Kommandos
 	ork_tank = "O", -- Tank
 	ork_nob_squad = "N", -- Nob Squad
-	ork_weirdboy = "Y", -- Weirdboy
+	ork_weirdboy = "", -- Weirdboy
 	ork_battlewagon = "", -- Battlewagon
 	ork_painboy = "P", -- Painboy
-	ork_flash_gitz = "G", -- Flash Gitz
+	ork_flash_gitz = "", -- Flash Gitz
 
 	-------------------------------------------
 	-------------- Ork Global Abilities-------------
@@ -712,59 +712,59 @@ bindings = {
 	-------------- Ork unit upgrades-------------
 	-------------------------------------------
 
-	ork_burna = "B", -- Burna
-	ork_nob_leader = "N", -- Nob Leader
-	ork_big_shoota = "B", -- Big Shoota
-	ork_nob_leader_shoota = "N", -- Shoota Nob Leader
-	ork_stikkbomma_kit = "B", -- Stikkbomma kit
-	ork_stormboy_jump_upgrade = "K", -- Jump
-	ork_deffgun_beamy = "B", -- Beamy Deffgun
-	ork_tank_armor = "P", -- Reinforced Plating
-	ork_nob_leader_kommando = "N", -- Kommando Nob Leader
-	ork_nob_kit = "G", -- Meaner an' Greener
-	ork_nob_hammers = "H", -- 'Uge hammers
-	ork_nob_leader_nobz = "N", -- Nob Leader
-	ork_nob_leader_stormboy = "N", -- Stormboy Nob Leader
-	ork_deff_dread_burna = "B", -- Burnaz 'n Bitz
+	ork_burna = "", -- Burna
+	ork_nob_leader = "", -- Nob Leader
+	ork_big_shoota = "", -- Big Shoota
+	ork_nob_leader_shoota = "", -- Shoota Nob Leader
+	ork_stikkbomma_kit = "", -- Stikkbomma kit
+	ork_stormboy_jump_upgrade = "", -- Jump
+	ork_deffgun_beamy = "", -- Beamy Deffgun
+	ork_tank_armor = "", -- Reinforced Plating
+	ork_nob_leader_kommando = "", -- Kommando Nob Leader
+	ork_nob_kit = "", -- Meaner an' Greener
+	ork_nob_hammers = "", -- 'Uge hammers
+	ork_nob_leader_nobz = "", -- Nob Leader
+	ork_nob_leader_stormboy = "", -- Stormboy Nob Leader
+	ork_deff_dread_burna = "", -- Burnaz 'n Bitz
 	ork_weirdboy_foot = "", -- Warphead
-	ork_weirdboy_bigga_brains = "B", -- Bigga Brains
+	ork_weirdboy_bigga_brains = "", -- Bigga Brains
 	ork_weirdboy_warpath = "", -- Warpath
-	ork_painboy_sauce = "B", -- Stronga Git Sauce
-	ork_painboy_implants = "T", -- Cybork Implants
-	ork_flash_gitz_findas = "T", -- Gitfindas
-	ork_flash_gitz_blastas = "B", -- Blastas
+	ork_painboy_sauce = "", -- Stronga Git Sauce
+	ork_painboy_implants = "", -- Cybork Implants
+	ork_flash_gitz_findas = "", -- Gitfindas
+	ork_flash_gitz_blastas = "", -- Blastas
 
 	-------------------------------------------
 	-------------- Ork hero upgrades-------------
 	-------------------------------------------
 
 	wp1_mekboy_deffgun = "", -- Deffgun
-	wp1_ork_mekboy_beamy_deffgun = "R", -- Beamy Deffgun
-	wp1_mekboy_big_shoota = "H", -- mek big shoota
-	arm_mekboy_electric_armor = "E", -- Electric Armor
-	arm_mekboy_earthquake_machine = "G", -- Mega-Rumblah
-	arm_mekboy_battery_pack = "T", -- Battery Pack
+	wp1_ork_mekboy_beamy_deffgun = "", -- Beamy Deffgun
+	wp1_mekboy_big_shoota = "", -- mek big shoota
+	arm_mekboy_electric_armor = "", -- Electric Armor
+	arm_mekboy_earthquake_machine = "", -- Mega-Rumblah
+	arm_mekboy_battery_pack = "", -- Battery Pack
 	acc_mekboy_force_field = "", -- Kustom Force Field
-	acc_mekboy_prox_mines = "M", -- Proximity Mines
-	acc_mekboy_uber_generator = "B", -- Supa Tuff Beam
-	wp1_ork_bang_bang_hammer = "H", -- Bang Bang Hammer
-	wp1_ork_kustom_shoota = "M", -- Kustom Shoota
+	acc_mekboy_prox_mines = "", -- Proximity Mines
+	acc_mekboy_uber_generator = "", -- Supa Tuff Beam
+	wp1_ork_bang_bang_hammer = "", -- Bang Bang Hammer
+	wp1_ork_kustom_shoota = "", -- Kustom Shoota
 	wp1_ork_warboss_power_claw = "", -- Power Klaw
-	arm_ork_warboss_cybork_bits = "C", -- Cyborg Implants
-	arm_warboss_spiky_armor = "I", -- Spiky Armor
-	arm_warboss_mega_armor = "O", -- 'eavy Armor
-	acc_warboss_angry_bits = "Y", -- Angry Bits
-	acc_warboss_boss_pole = "B", -- Boss Pole
-	acc_warboss_trophy_rack = "K", -- Trophy Rack
-	wp1_kommando_spechul_shoota = "L", -- Speshul Shoota
-	wp1_ork_kommando_hero_assassin_knife = "N", -- Assashun's Knife
-	wp1_kommando_rokkit_launcha = "H", -- Rokkit Launcha
-	arm_kommando_extra_equipment = "E", -- Betta Combat Kit
-	arm_kommando_boom_time = "O", -- Boom Time!
-	arm_kommando_camo_armor = "C", -- Sneaky Infiltrashun Kit
-	acc_kommando_grenade = "T", -- Stikkbombz
-	acc_kommando_booby_trap = "P", -- Booby Traps
-	acc_kommando_kaboom = "K", -- Kaboom!
+	arm_ork_warboss_cybork_bits = "", -- Cyborg Implants
+	arm_warboss_spiky_armor = "", -- Spiky Armor
+	arm_warboss_mega_armor = "", -- 'eavy Armor
+	acc_warboss_angry_bits = "", -- Angry Bits
+	acc_warboss_boss_pole = "", -- Boss Pole
+	acc_warboss_trophy_rack = "", -- Trophy Rack
+	wp1_kommando_spechul_shoota = "", -- Speshul Shoota
+	wp1_ork_kommando_hero_assassin_knife = "", -- Assashun's Knife
+	wp1_kommando_rokkit_launcha = "", -- Rokkit Launcha
+	arm_kommando_extra_equipment = "", -- Betta Combat Kit
+	arm_kommando_boom_time = "", -- Boom Time!
+	arm_kommando_camo_armor = "", -- Sneaky Infiltrashun Kit
+	acc_kommando_grenade = "", -- Stikkbombz
+	acc_kommando_booby_trap = "", -- Booby Traps
+	acc_kommando_kaboom = "", -- Kaboom!
 
 	-------------------------------------------
 	-------------- Ork unit abilities-------------
@@ -779,14 +779,14 @@ bindings = {
 	ork_smoke_bomb = "", -- Smoke Bomb
 	ork_steady_firing = "T", -- Aiming? Wotz Dat?
 	ork_stikkbomb_stikkbommas = "T", -- Stikkbomb
-	ork_stikkbomma_stun_grenade = "Y", -- Stun Grenade
+	ork_stikkbomma_stun_grenade = "", -- Stun Grenade
 	ork_stormboy_jump = "T", -- Jump
 	ork_stormboy_jump_improved = "T", -- Improved Jump
 	ork_stormboy_suicide_bomba = "", -- Bommaboyz
 	ork_tank_high_powered_shot = "T", -- Boomgun
 	ork_tankbusta_mortar_shots = "T", -- Rokkit Barrage
-	ork_waaagh_shout = "G", -- Waaagh!!! and Frazzle
-	ork_repair = "", -- Repair
+	ork_waaagh_shout = "Y", -- Waaagh!!! and Frazzle
+	ork_repair = "Z", -- Repair
 	ork_weirdboy_throw = "", -- Over Dere!
 	ork_foot_of_gork = "T", -- Foot of Gork
 	ork_warpath = "", -- Warpath
@@ -835,7 +835,7 @@ bindings = {
 	-------------- Ork buildings-------------
 	-------------------------------------------
 
-	ork_orky_turret_mek = "Y", -- Mekboy Turret
+	ork_orky_turret_mek = "", -- Mekboy Turret
 	ork_waaagh_banner = "U", -- Waaagh Banner
 	ork_listening_post = "", -- Power Node
 	ork_generator = "", -- Power Generator
@@ -847,7 +847,7 @@ bindings = {
 	-------------- Eldar Unit Creation-------------
 	-------------------------------------------
 
-	eld_guardian = "G", -- Guardian
+	eld_guardian = "", -- Guardian
 	eld_guardian_shuriken_cannon = "", -- Shuriken Cannon Platform
 	eld_ranger = "N", -- Ranger
 	eld_banshee = "B", -- Banshee
@@ -934,7 +934,7 @@ bindings = {
 	arm_warp_enhanced_warp_stabilizers = "I", -- Enhanced Warp Jump Generator
 	acc_warp_improved_targeters = "T", -- Improved Targeters
 	acc_warp_shimmer_orb = "B", -- Shimmer Orb
-	acc_warp_anti_grav_grenade = "G", -- Anti-Grav Grenade
+	acc_warp_anti_grav_grenade = "", -- Anti-Grav Grenade
 
 	-------------------------------------------
 	-------------- Eldar Unit abilities-------------
@@ -948,9 +948,9 @@ bindings = {
 	eld_fire_prism_explosive_shot = "T", -- Switch to Dispersed Beam
 	eld_fire_prism_focused_shot = "T", -- Switch to Focused Beam
 	eld_fleet_of_foot = "", -- Fleet of Foot
-	eld_haywire_grenade = "G", -- Haywire Grenade
+	eld_haywire_grenade = "", -- Haywire Grenade
 	eld_jump_warpspider = "J", -- Teleport
-	eld_plasma_grenade = "G", -- Plasma Grenade
+	eld_plasma_grenade = "", -- Plasma Grenade
 	eld_ranger_infiltration = "I", -- Infiltration
 	eld_suppressive_volley = "V", -- Suppressive Fire
 	eld_war_shout = "", -- War Shout
@@ -959,7 +959,7 @@ bindings = {
 	eld_holofield_ranger = "", -- Holo-Field
 	eld_avatar_khaines_wrath = "", -- Khaine's Wrath
 	eld_repair = "P", -- Repair
-	eld_holo_field = "Y", -- webway holofield
+	eld_holo_field = "", -- webway holofield
 	eld_avatar_hymm = "R",
 	eld_autarch_jump = "J", -- Autarch Jump
 	eld_autarch_skyleap_away = "C",
@@ -976,9 +976,9 @@ bindings = {
 	-------------- Eldar hero abilities-------------
 	-------------------------------------------
 
-	eld_anti_grav_grenade = "G", -- Anti-Grav Grenade
+	eld_anti_grav_grenade = "", -- Anti-Grav Grenade
 	eld_entangle = "E", -- Entangle
-	eld_group_teleport = "Y", -- Group Teleport
+	eld_group_teleport = "", -- Group Teleport
 	eld_phase_shift = "P", -- Phase Shift
 	eld_shimmer_orb = "B", -- Shimmer Orb
 	eld_heavy_gauge_filament = "V", -- Heavy Gauge Filament
@@ -993,7 +993,7 @@ bindings = {
 	eld_shield_projector = "P", -- Psychic Shield
 	eld_doom = "", -- Doom
 	eld_fortune = "O", -- Fortune
-	eld_guide = "G", -- Guide
+	eld_guide = "", -- Guide
 	eld_levitation_field = "V", -- Levitation Field
 	eld_mind_war = "M", -- Mind War
 	eld_spiritual_rites = "I", -- Spiritual Rites
@@ -1027,8 +1027,8 @@ bindings = {
 	tyr_carnifex = "C", -- Carnifex
 	tyr_carnifex_barbed = "", -- Carnifex (Barbed Strangler)
 	tyr_zoanthrope = "", -- Zoanthrope
-	tyr_genestealer = "G", -- Genestealer
-	tyr_tyrant_guard = "Y", -- Tyrant Guard
+	tyr_genestealer = "", -- Genestealer
+	tyr_tyrant_guard = "", -- Tyrant Guard
 	tyr_swarmlord = "M", -- Swarmlord
 	tyr_doom = "O", -- Doom of Malantai
 
@@ -1052,7 +1052,7 @@ bindings = {
 
 	tyr_venom_cannon_warrior = "V", -- Venom Cannon
 	tyr_barbed_strangler_warrior = "B", -- Barbed Strangler
-	tyr_warrior_adrenal_glands = "G", -- Adrenal Glands
+	tyr_warrior_adrenal_glands = "", -- Adrenal Glands
 	tyr_warrior_thorax = "V", -- Thorax Swarm
 	tyr_lictor_upgrade = "V", -- Vanguard
 	tyr_devourer = "", -- Devourer
@@ -1062,8 +1062,8 @@ bindings = {
 	tyr_venom_cannon_carnifex = "V", -- Venom Cannon (Carnifex)
 	tyr_termagaunt_poison = "T", -- Toxin Sacs
 	tyr_endless_swarm = "L", -- Eldless Swarm (Hormagaunts and Termagants)
-	tyr_hormagaunt_adrenal_glands = "G", -- Adrenal Glands
-	tyr_genestealers_claws = "G", -- Rending Claws
+	tyr_hormagaunt_adrenal_glands = "", -- Adrenal Glands
+	tyr_genestealers_claws = "", -- Rending Claws
 	tyr_ranged_synapse = "E", -- Ranged Synapse Venoms
 	tyr_warrior_adrenal_real = "H", -- Warrior Adrenal Glands
 
@@ -1073,7 +1073,7 @@ bindings = {
 
 	wp_lictor_corrosive_claws = "V", -- Corrosive Claws
 	wp_lictor_feeder_tendrils = "T", -- Feeder Tendrils
-	wp_lictor_scything_talons = "Y", -- Scything Talons
+	wp_lictor_scything_talons = "", -- Scything Talons
 	wp_lictor_toxic_miasma = "N", -- Toxic Miasma
 	tyr_arm_lictor_poison_cloud = "C", -- Toxic Cysts
 	tyr_arm_lictor_energy_glands = "", -- Adrenal Glands
@@ -1086,10 +1086,10 @@ bindings = {
 	tyr_ravener_devourer_ap = "V", -- Corrosive Devourer
 	tyr_arm_ravener_regeneration_carapace = "H", -- Hardened Carapace
 	tyr_arm_ravener_reflective_carapace = "N", -- Reinforced Chitin
-	tyr_arm_ravener_revive_carapace = "G", -- Regenerate
+	tyr_arm_ravener_revive_carapace = "", -- Regenerate
 	acc_ravener_burrow_trap = "P", -- Burrow Trap
 	acc_ravener_poison_cloud = "N", -- Toxic Miasma
-	acc_ravener_synapse_aura_damage = "Y", -- Synapse Aura (Damage)
+	acc_ravener_synapse_aura_damage = "", -- Synapse Aura (Damage)
 	acc_ravener_synapse_aura_speed = "", -- Strengthened Sinew
 	wp_hive_heavy_claw = "", -- Crushing Claw
 	wp_hive_knockback = "", -- Rending Talons
@@ -1099,7 +1099,7 @@ bindings = {
 	tyr_arm_hive_invulnerable = "E", -- Bonded Exoskeleton
 	acc_hive_psychic_shield = "", -- Warp Field
 	acc_hive_bioplasma = "B", -- Bio-Plasma
-	acc_hive_scream = "Y", -- Psychic Scream
+	acc_hive_scream = "", -- Psychic Scream
 
 	-------------------------------------------
 	-------------- Tyranid unit abilities-------------
@@ -1122,13 +1122,13 @@ bindings = {
 	tyr_warrior_desiccate = "", -- Desiccator Larvae
 	tyr_shieldwall = "", -- shieldwall tyrant guard
 	tyr_swarmlord_blade = "", -- Blade Flurry
-	tyr_swarmlord_leech = "Y", -- Leech Essence
+	tyr_swarmlord_leech = "", -- Leech Essence
 	tyr_ravener_jump = "J", -- Burrow Strike
 	tyr_infestation_rippers = "", -- Infestation Tower Spawn Rippers
 	tyr_infestation_mines = "", -- Infestation Tower Spawn Spore Mines
 	tyr_doom_cataclysm = "B", -- Cataclysm
 	tyr_doom_paroxysm = "T", -- Paroxysm
-	tyr_doom_absorb_life = "Y", -- Absorb Life
+	tyr_doom_absorb_life = "", -- Absorb Life
 	tyr_doom_spirit_leech = "M", -- Spirit Leech
 
 	-------------------------------------------
@@ -1147,7 +1147,7 @@ bindings = {
 	tyr_seismic_roar = "", -- Seismic Roar
 	tyr_invulnerable_hive = "E", -- Invulnerability
 	tyr_psychic_shield = "", -- Warp Field
-	tyr_scream_hive = "Y", -- Psychic Scream
+	tyr_scream_hive = "", -- Psychic Scream
 	tyr_corrosion_lictor = "V",
 	tyr_cripple_lictor = "N",
 	tyr_elite_jump_lictor = "J", -- Assault Leap
@@ -1156,8 +1156,8 @@ bindings = {
 	tyr_lictor_pheromone_attack = "E", -- Pheromone Cloud
 	tyr_poison_cloud_lictor = "C", -- Toxic Miasma
 	tyr_retreat = "R", -- Terrify
-	tyr_suppression_lictor = "Y",
-	tyr_scythe = "Y", -- Scythe
+	tyr_suppression_lictor = "",
+	tyr_scythe = "", -- Scythe
 
 	-------------------------------------------
 	-------------- Tyranid buildings-------------
@@ -1182,7 +1182,7 @@ bindings = {
 	csm_bloodletter = "B", -- Bloodletter
 	csm_chaos_dreadnought = "", -- Chaos Dreadnought
 	csm_juggernaught = "J", -- Juggernaut
-	csm_chaos_plague_marine = "G", -- Plague Marine
+	csm_chaos_plague_marine = "", -- Plague Marine
 	csm_chaos_predator = "T", -- Predator
 	csm_unclean_one = "U", -- Great Unclean One
 	csm_noise_marines = "N", -- Noise Marines
@@ -1281,7 +1281,7 @@ bindings = {
 
 	csm_blight_grenade = "L", -- Blight Grenade
 	csm_bloodletter_av = "V", -- Fury of Khorne
-	csm_frag_grenade = "G", -- Frag Grenade
+	csm_frag_grenade = "", -- Frag Grenade
 	csm_meat_hook = "", -- Foul Snare
 	csm_unclean_one_poison_cloud = "C", -- Noxious Stomp
 	csm_unclean_swarm = "", -- Swarm of Flies
@@ -1315,7 +1315,7 @@ bindings = {
 	chaos_lord_combie_flame = "C", -- Immolate
 	chaos_lord_maul_smash = "B", -- Fearsome Strike
 	chaos_lord_damage_increase = "", -- Rage of Khorne
-	chaos_lord_invulnerable = "G", -- Worship Me!
+	chaos_lord_invulnerable = "", -- Worship Me!
 	chaos_lord_iron_halo = "I", -- Dark Halo
 	chaos_lord_taunt = "T",
 	chaos_lord_khorne_slash = "K", -- Kill the Weak
@@ -1344,7 +1344,7 @@ bindings = {
 	-------------------------------------------
 
 	ig_assault_squad = "",
-	ig_guardsmen_squad = "G", -- Guardsmen Squad
+	ig_guardsmen_squad = "", -- Guardsmen Squad
 	ig_heavy_weapon_squad = "H", -- Heavy Weapons Squad
 	ig_sniper_squad = "", -- Catachan Devils
 	ig_commissar = "I",
@@ -1433,7 +1433,7 @@ bindings = {
 	-------------- IG Hero Upgrades-------------
 	-------------------------------------------
 
-	ig_acc_commander_guardsmen = "G",
+	ig_acc_commander_guardsmen = "",
 	ig_acc_commander_commissar = "C", -- Commissar Retinue Member
 	ig_acc_commander_vox_operator = "V", -- Vox Operator Retinue Member
 	ig_acc_commander_sergeant = "L", -- Sergeant Retinue Member
@@ -1474,7 +1474,7 @@ bindings = {
 	-------------------------------------------
 
 	ig_devils_smoke = "M", -- Catachan Smoke Grenade
-	ig_build_turret = "Y", -- Multi-Laser Turret
+	ig_build_turret = "", -- Multi-Laser Turret
 	ig_bunker_repair = "R", -- Repair Bunker
 	ig_bunker_medical = "M", -- Medi Bunker
 	ig_bunker_boobytrap = "B", -- Booby Trap Bunker
@@ -1524,7 +1524,7 @@ bindings = {
 	-------------------------------------------
 
 	ig_commander_medkit = "", -- Distribute Medi-pack Kit
-	ig_commander_valkyrie_reinforce = "Y", -- Call Reinforcements
+	ig_commander_valkyrie_reinforce = "", -- Call Reinforcements
 	ig_commander_emperor = "I", -- Lord General Refractor Field
 	ig_commander_ranged_buff = "O",
 	ig_commander_stationary = "L", -- Stand Firm
@@ -1596,12 +1596,12 @@ bindings = {
 	-------------------------------------------
 
 	gk_dread_fist = "C", -- Dreadnought Melee Claw
-	gk_dread_grenade = "G", -- Dreadnought Grenade Launcher
+	gk_dread_grenade = "", -- Dreadnought Grenade Launcher
 	gk_dread_maelstrom = "E", -- Maelstrom
 	gk_dread_multimelta = "M", -- Dreadnought Multi-Melta
 	gk_dread_flamer = "", -- Dreadnought Heavy Flamer
 	gk_dread_plasmacannon = "P", -- Dreadnought Plasmacannon
-	gk_interceptor_grenades = "G", -- Interceptor Grenades
+	gk_interceptor_grenades = "", -- Interceptor Grenades
 	gk_interceptor_incinerator = "I", -- Interceptor Incinerator
 	gk_interceptor_justicar = "L", -- Interceptor Justicar
 	gk_interceptor_psycannon = "P", -- Interceptor Psycannons
@@ -1614,7 +1614,7 @@ bindings = {
 	gk_rhino_armor = "P", -- Reinforced Armor Plating
 	gk_rhino_bolter = "B", -- Rhino Heavy Bolter
 	gk_rhino_lascannon = "L", -- Rhino Lascannon
-	gk_grenade_launcher = "G", -- Stormtrooper Grenade Launcher
+	gk_grenade_launcher = "", -- Stormtrooper Grenade Launcher
 	gk_plasma_gun = "M", -- Stormtrooper Plasma Gun
 	gk_stormtrooper_sergeant = "L", -- Inquisitorial Stormtrooper Sergeant
 	gk_stormtrooper_acolyte = "C", -- Inquisitorial Stormtrooper Acolyte
@@ -1638,7 +1638,7 @@ bindings = {
 
 	wp_daemonhunter_burner = "N", -- Destroyer-Burner
 	wp_daemonhunter_force_rod = "R", -- Force Rod
-	wp_daemonhunter_force_glaive = "G", -- Force Glaive
+	wp_daemonhunter_force_glaive = "", -- Force Glaive
 	wp_daemonhunter_force_sword = "H", -- Hunter's Blade
 	wp_eversor_axe = "E", -- Eviscerator Axe
 	wp_eversor_executioner = "T", -- Executioner Pistol
@@ -1657,11 +1657,11 @@ bindings = {
 	acc_daemonhunter_brain_mines = "M", -- Empyrean Brain Mines
 	acc_daemonhunter_liber_malleus = "L", -- Liber Malleus
 	acc_daemonhunter_tome = "T", -- Tome of Tranquility
-	acc_eversor_chem_grenade = "G", -- Chem-Cloud Grenades
+	acc_eversor_chem_grenade = "", -- Chem-Cloud Grenades
 	acc_eversor_cybernetics = "C", -- Cybernetic Enhancement
 	acc_eversor_melta = "M", -- Melta Bomb Pack
 	acc_eversor_onslaught = "O", -- Onslaught Injectors
-	arm_blessed_aegis = "G", -- Blessed Aegis
+	arm_blessed_aegis = "", -- Blessed Aegis
 	arm_holy_armor_titan = "T", -- Holy Armor of Titan
 	arm_mantle_of_terra = "M", -- Mantle of Terra
 	arm_nemesis_vortex = "V", -- Nemesis Vortex
@@ -1679,7 +1679,7 @@ bindings = {
 
 	gk_maelstrom = "E", -- Dreadnought Maelstrom
 	gk_emperors_fist = "", -- Dreadnought Emperor's Fist
-	gk_psyk_out_nade = "Y", -- Interceptor Psyk out grenade
+	gk_psyk_out_nade = "", -- Interceptor Psyk out grenade
 	gk_krak_grenade = "K", -- Interceptor Krak grenade
 	gk_interceptor_teleport = "J", -- Interceptor Teleport and Furious Intervention
 	gk_interceptor_switch = "E", -- Interceptor Melee/Ranged Weapons Swap
@@ -1689,7 +1689,7 @@ bindings = {
 	gk_purged_by_fire = "", -- Purged by Fire!
 	gk_rending = "", -- Rending
 	gk_electropulse = "E", -- Electropulse
-	gk_psychic_field = "Y", -- Psychic Field
+	gk_psychic_field = "", -- Psychic Field
 	gk_purification = "P", -- Daemonhunter, Purifier and Strike Squad Purification
 	gk_energy_burst = "T", -- Energy Burst
 	gk_rhino_smoke = "M", -- Smoke Grenade
@@ -1707,7 +1707,7 @@ bindings = {
 	gk_infiltrate = "I", -- Operative Infiltrate
 	gk_stun_bomb = "I", -- Operative Stun Bomb
 	gk_fall_back = "", -- Operative Fallback Plan
-	gk_fire_grenade = "G", -- Operative Fire Grenade
+	gk_fire_grenade = "", -- Operative Fire Grenade
 	gk_operative_melta = "M", -- Operative Melta Bomb
 	gk_smoke_bomb = "B", -- Operative Smoke Bomb
 
@@ -1718,7 +1718,7 @@ bindings = {
 	gk_we_are_the_hammer = "B", -- We Are The Hammer
 	gk_ward = "", -- Ward
 	gk_teleport = "J", -- Teleport
-	gk_lash = "Y", -- Psychic Lash
+	gk_lash = "", -- Psychic Lash
 	gk_vortex = "N", -- Nemesis Vortex
 	gk_immortal = "R", -- Immortal
 	gk_demolishing_strike = "", -- Demolishing Strike
@@ -1737,7 +1737,7 @@ bindings = {
 	gk_eversor_melta = "M", -- Melta Bomb
 	gk_neurotoxin = "T", -- Neurotoxin
 	gk_killzone = "K", -- Killzone
-	gk_chem_grenade = "G", -- Chem-Cloud Grenades
+	gk_chem_grenade = "", -- Chem-Cloud Grenades
 	gk_charge = "H", -- Charge
 	gk_rapid_reflex = "R", -- Rapid Reflex
 	gk_psychon = "P", -- Psychon and Improved Psychon
@@ -1747,7 +1747,7 @@ bindings = {
 	-------------- Observer panel----------------
 	-------------------------------------------
 
-	infantry_fow = "G",
+	infantry_fow = "",
 	ui_arrow = "",
 	jumbo_cursor = "",
 	fow_options = "",
@@ -1769,7 +1769,7 @@ bindings = {
 		AB_key_3 = "E",
 		AB_key_4 = "R",
 		AB_key_5 = "T",
-		AB_key_6 = "Y",
+		AB_key_6 = "",
 		AB_key_7 = "H",
 
 		-- Keys for Unit Upgrades
@@ -1801,14 +1801,14 @@ bindings = {
 		UC_Row1_Col3 = "E",
 		UC_Row1_Col4 = "R",
 		UC_Row1_Col5 = "T",
-		UC_Row1_Col6 = "Y",
+		UC_Row1_Col6 = "",
 		UC_Row1_Col7 = "U",
 
 		UC_Row2_Col1 = "",
 		UC_Row2_Col2 = "",
 		UC_Row2_Col3 = "",
 		UC_Row2_Col4 = "",
-		UC_Row2_Col5 = "G",
+		UC_Row2_Col5 = "",
 		UC_Row2_Col6 = "H",
 		UC_Row2_Col7 = "J",
 
@@ -1842,8 +1842,8 @@ bindings = {
 	E = "E",
 	f = "",
 	F = "",
-	g = "G",
-	G = "G",
+	g = "",
+	G = "",
 	h = "H",
 	H = "H",
 	i = "I",
@@ -1878,8 +1878,8 @@ bindings = {
 	W = "",
 	x = "X",
 	X = "X",
-	y = "Y",
-	Y = "Y",
+	y = "",
+	Y = "",
 	z = "",
 	Z = "",
 	--~ 	, = "comma",
