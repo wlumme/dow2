@@ -26,22 +26,20 @@ This is based off Cabel's guide to installing Elite Mod on Linux from the DowII 
         ];
 
         home.sessionVariables = {
-          STEAM_EXTRA_COMPAT_TOOLS_PATHS =
-            "\\\${HOME}/.steam/root/compatibilitytools.d";
+          STEAM_EXTRA_COMPAT_TOOLS_PATHS = "\${HOME}/.steam/root/compatibilitytools.d";
         };
         ```
         - Otherwise, add the following to configuration.nix:
         ```nix
         # configuration.nix
 
-        home.packages = with pkgs; [
+        environment.systemPackages = with pkgs; [
           protonup
           python3
         ];
 
-        home.sessionVariables = {
-          STEAM_EXTRA_COMPAT_TOOLS_PATHS =
-            "\\\${HOME}/.steam/root/compatibilitytools.d";
+        environment.sessionVariables = {
+          STEAM_EXTRA_COMPAT_TOOLS_PATHS = "\${HOME}/.steam/root/compatibilitytools.d";
         };
         ```
     3. Run `sudo nixos-rebuild switch` to apply changes.
